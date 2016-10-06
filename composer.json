@@ -1,0 +1,21 @@
+{
+    "name": "ronaldoaf/c ",
+    "type": "library",
+    "description": "Tabela do Campeonato Brasileiro e outras competições CBF",
+    "keywords": ["cbf","futebol", "brasileirao","tabela","scraping"],
+    "homepage": "https://github.com/ronaldoaf/cbf-tabela",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Araújo de Farias",
+            "email": "ronaldo.a.f@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+         "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {"Ronaldoaf\\": "src/"}
+    }
+}
